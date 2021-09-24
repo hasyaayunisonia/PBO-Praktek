@@ -32,13 +32,13 @@ public class Soal5_Strings {
         int compare = A.compareTo(B); //variabel compare bertipe integer menampung hasil membandingkan dua buah String
                                       //yaitu var String A dengan var String B berdasarkan urutan posisi kamus
         if(compare < 0) {
-            System.out.print("Ya");
+            System.out.print("Tidak");
         }
         else if(compare == 0) {
              System.out.print("A sebanding dengan B");
         }
         else {
-            System.out.print("Tidak");
+            System.out.print("Ya");
         }
         
         System.out.println("\n# String A dan B dalam satu baris = " + A.substring(0, 1).toUpperCase() + ""+A.substring(1)+" " + 
