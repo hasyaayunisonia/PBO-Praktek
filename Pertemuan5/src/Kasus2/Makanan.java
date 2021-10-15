@@ -21,7 +21,7 @@ public class Makanan {
         this.stok = _stok;
     }
     
-    /* Encapsulasi (getter dan setter)*/
+    /* Enkapsulasi (getter dan setter)*/
     public String getNamaMakanan()
     {
         return nama_makanan;
