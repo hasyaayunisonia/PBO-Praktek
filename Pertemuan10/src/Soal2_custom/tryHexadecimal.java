@@ -27,7 +27,7 @@ public class tryHexadecimal {
     public static void parseHex (String s) throws HexadecimalFormatException {
 
         s = s.toUpperCase();
-        if(s.matches("[0-9].*|[A-Z].*|[A-Z].*[0-9]|[0-9].*[A-Z]")) {
+        if(s.matches("^[A-Fa-f0-9]+$")) {
             int value = Integer.parseInt(s, 16);
             System.out.println("Dalam bilangan desimal = " + value );
         }else {
